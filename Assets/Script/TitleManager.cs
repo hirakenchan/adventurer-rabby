@@ -130,4 +130,9 @@ public class TitleManager : MonoBehaviour
         if (mainMenuGroup != null)
             mainMenuGroup.SetActive(true);
     }
+
+    public void OpenPrivacyPolicy()
+    {
+        Application.OpenURL("https://hirakenchan.github.io/adventurer-rabby/privacy-policy.html");
+    }
 }
